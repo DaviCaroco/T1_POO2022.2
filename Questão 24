@@ -8,6 +8,6 @@ class Main {
     System.out.println(" Digite os minutos atuais: ");
     m = sc.nextFloat();
     conver = (hora*60) + (m*100);
-    System.out.println("A conversão da hora em minutos ");
+    System.out.println("A conversão da hora em minutos é "+ conver+" Minutos");
   }
 }
